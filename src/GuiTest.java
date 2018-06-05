@@ -19,6 +19,7 @@ public class GuiTest {
             @Override
             public void actionPerformed(ActionEvent e) {
                 text1.setText("hello,world!");
+                textField1.setText("i love u");
             }
         });
         button2.addActionListener(new ActionListener() {
