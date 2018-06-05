@@ -20,12 +20,14 @@ public class GuiTest {
             public void actionPerformed(ActionEvent e) {
                 text1.setText("hello,world!");
                 textField1.setText("i love u");
+                textField2.setText("测试");
             }
         });
         button2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                text1.setText("");
+
+                textField2.setText("测试");
             }
         });
     }
